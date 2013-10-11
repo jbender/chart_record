@@ -5,8 +5,9 @@ Gem::Specification.new do |s|
   s.authors     = ["Jonathan Bender"]
   s.email       = ["jlbender@gmail.com"]
   s.homepage    = "https://github.com/DormDeal/chart_record"
-  s.summary     = "Class methods that were found to be universally useful"
-  s.description = "Class methods that were found to be universally useful"
+  s.summary     = "Active Record model grouping methods"
+  s.description = "This gem was built to compliment the chartkick gem by giving your Active Record models some handy groupings that work across all databases."
+  s.license     = "MIT"
 
-  s.files = ["lib/chart_record.rb", Dir["lib/chart_record/*"]]
+  s.files = ["lib/chart_record.rb", Dir["lib/chart_record/*"]].flatten
 end
