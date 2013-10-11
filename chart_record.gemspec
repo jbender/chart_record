@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.description = "This gem was built to compliment the chartkick gem by giving your Active Record models some handy groupings that work across all databases."
   s.license     = "MIT"
 
-  s.files = ["lib/chart_record.rb", Dir["lib/chart_record/*"]].flatten
+  s.files       = `git ls-files`.split($/)
 end
