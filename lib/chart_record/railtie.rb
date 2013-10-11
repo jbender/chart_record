@@ -1,7 +1,7 @@
-require 'dd_active_record_extensions/extensions'
-module EngineUrlHelpers
+require 'chart_record/extensions'
+module ChartRecord
   class Railtie < Rails::Railtie
-    initializer "dd_active_record_extensions.extensions" do
+    initializer "chart_record.extensions" do
       ActionView::Base.send :include, Extensions
     end
   end
