@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "chart_record"
-  s.version     = "0.0.2"
+  s.version     = "0.0.3"
   s.date        = "2013-10-11"
   s.authors     = ["Jonathan Bender"]
   s.email       = ["jlbender@gmail.com"]
