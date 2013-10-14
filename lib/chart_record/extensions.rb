@@ -25,6 +25,10 @@ module ChartRecord
         return grouped
       end
 
+      def from_today
+        where("#{self.table_name}.created_at > ?", Date.today)
+      end
+
     end
   end
 end
