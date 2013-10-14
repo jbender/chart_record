@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "chart_record"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.date        = "2013-10-11"
   s.authors     = ["Jonathan Bender"]
   s.email       = ["jlbender@gmail.com"]
@@ -10,4 +10,6 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   s.files       = `git ls-files`.split($/)
+
+  s.add_dependency "activerecord", "~> 3.0"
 end

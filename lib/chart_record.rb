@@ -1,1 +1,1 @@
-require 'chart_record/railtie' if defined?(Rails::Railtie)
+require 'chart_record/railtie' if defined? ::Rails::Railtie
